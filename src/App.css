@@ -1,0 +1,105 @@
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+  background: #FFF;
+}
+#root{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center !important;
+}
+div.widgetSun
+{
+  position: relative;
+  width: 355px;
+  margin: 50px auto;
+  background: rgb(249,247,180);
+  background: linear-gradient(90deg, rgba(249,247,180,1) 54%, rgba(0,110,255,1) 100%);
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.widgetRain{
+  position: relative;
+  width: 355px;
+  margin: 50px auto;
+  background-color: #5e8bff;
+  background-image: url(https://s.w-x.co/ads/creatives/homedepot/bwbb/bg_l_rain_animation_homedepot5.gif);
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+}
+
+div.date
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.5);
+}
+
+div.city
+{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
+
+div.temp
+{
+  font-size: 81px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+}
+
+div.hum{
+  font-size: 15px;
+  color: rgba(0,0,0,0.9);
+  font-weight: 100;
+}
+
+div.panel
+{
+  display: inline-block;
+}
+
+
+.sunImg{
+  height: 60px;
+}
+
+h1,h2{
+  color: black
+}
+
+.cards{
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 5rem;
+  padding-right: 5rem;}
+
+.logo{
+  margin: 10px;
+}
+
+.nav, .footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  margin: 5px;
+}
+
+.name{
+  font-size: 21px;
+  font-weight: bold;
+  padding-top: 5px;
+  color: rgba(0,0,0,0.7);
+}
